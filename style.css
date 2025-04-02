@@ -1,35 +1,72 @@
-oui modifie le css body {
-  font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body {
+  font-family: 'Amiri', serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f8f8;
+  background-image: url('background.png'); /* Remplace par ton image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #3e2f2f;
 }
 
+/* Bloc central comme un carnet */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: rgba(255, 248, 240, 0.95); /* fond clair et transparent */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* En-tête */
 header {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #a0522d; /* Cuivré oriental */
+  color: #fff8dc;
   padding: 20px;
   text-align: center;
+  border-bottom: 5px solid #8b4513;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
+/* Menu de navigation */
 nav a {
   margin: 0 10px;
   text-decoration: none;
-  color: white;
+  color: #fff8dc;
   font-weight: bold;
+  font-size: 1.1em;
 }
 
+/* Contenu principal */
 main {
   padding: 20px;
   text-align: center;
 }
 
+/* Pied de page */
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #3e2f2f;
+  color: #f7e6c4;
   text-align: center;
   padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  font-size: 0.9em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
 }

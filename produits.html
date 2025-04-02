@@ -5,6 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Produits</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .produit {
+      margin-bottom: 40px;
+    }
+
+    .produit img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 10px;
+    }
+
+    .produit h3 {
+      margin-bottom: 5px;
+    }
+  </style>
 </head>
 <body>
   <!-- En-tête flottant -->
@@ -22,13 +40,32 @@
   <div class="container">
     <main>
       <h2>Liste des produits faits maison</h2>
-      <ul>
-        <li><strong>Cookies marocains</strong> – 1,50€</li>
-        <li><strong>Bracelet togolais en perles</strong> – 2,00€</li>
-        <li><strong>Marque-page calligraphié</strong> – 1,00€</li>
-        <li><strong>Porte-clé artisanal turc</strong> – 2,50€</li>
-        <li><strong>Encens somalien naturel</strong> – 3,00€</li>
-      </ul>
+
+      <div class="produit">
+        <h3>Cookies marocains – 1,50€</h3>
+        <img src="images/cookies-marocains.jpg" alt="Cookies marocains">
+      </div>
+
+      <div class="produit">
+        <h3>Bracelet togolais en perles – 2,00€</h3>
+        <img src="images/bracelet-togo.jpg" alt="Bracelet togolais en perles">
+      </div>
+
+      <div class="produit">
+        <h3>Marque-page calligraphié – 1,00€</h3>
+        <img src="images/marque-page-calligraphie.jpg" alt="Marque-page calligraphié">
+      </div>
+
+      <div class="produit">
+        <h3>Porte-clé artisanal turc – 2,50€</h3>
+        <img src="images/porte-cle-turc.jpg" alt="Porte-clé artisanal turc">
+      </div>
+
+      <div class="produit">
+        <h3>Encens somalien naturel – 3,00€</h3>
+        <img src="images/encens-somalie.jpg" alt="Encens somalien naturel">
+      </div>
+
     </main>
     <footer>
       <p>&copy; 2025 Vente à l'école</p>

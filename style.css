@@ -4,7 +4,7 @@ body {
   font-family: 'Amiri', serif;
   margin: 0;
   padding: 0;
-  background-image: url('images/background.png');
+  background-color: #E6E6E6;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

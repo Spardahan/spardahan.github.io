@@ -91,4 +91,15 @@ footer {
     display: block;
     margin: 5px 0;
   }
+  .image-row{
+	  display: flex;
+	  gap: 20px;
+	  justify-content: center;
+	  flex-wrap: wrap;
+  }
+  .image-row img{
+	 with: 150px;
+	 height: auto;
+	 border-radius: 10px;
+  }
 }
